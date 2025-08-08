@@ -6,7 +6,7 @@ import random
 from .models import Department, Program, Hall, Level, Group, Subject, Teacher,Period,Today,TeacherTime, Distribution, Table
 from tempfile import NamedTemporaryFile
 import hashlib
-
+#a
 class TimeTableScheduler:
     def __init__(self,semester_filter=None):
         self.semester_filter = semester_filter
